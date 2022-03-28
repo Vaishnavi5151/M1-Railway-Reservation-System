@@ -1,4 +1,4 @@
-#include <conio.h>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -35,9 +35,9 @@ void main()
 	pass_info(j);
 	printf("Enter Boarding Station: ");
 	fflush(stdin);
-	gets(boarding);
+	scanf("%s", &boarding);
 	printf("Enter Destination Station: ");
-	gets(destination);
+	scanf("%s", &destination);
 	printf("\tAvailable Trains:\n");
 	printf("\t\tS.no. Name of Train      Arraival   Train no:\n");
 	printf("\t\t1.    Anantapuri Express 03:00 AM   23148\n");
@@ -198,16 +198,16 @@ void pass_info(int k)
 		if(i==1){
 		printf("Enter The %dst Passenger Name: ", i);
 		fflush(stdin);
-		gets(val);
+		scanf("%s", &val);
 		printf("Enter The %dst Passenger Gender: ", i);
 		fflush(stdin);
-		gets(gender);
+		scanf("%s", &gender);
 		printf("Enter The %dst Passenger Nationality: ", i);
 		fflush(stdin);
-		gets(nat);
+		scanf("%s", &nat);
 		printf("Enter The %dst Passenger Berth Preference: ", i);
 		fflush(stdin);
-		gets(BP);
+		scanf("%s", &BP);
 		printf("Enter The %dst Passenger Age: ", i);
 		fflush(stdin);
 		scanf("%d", &a);
@@ -215,16 +215,16 @@ void pass_info(int k)
 		else if(i==2){
 		printf("Enter The %dnd Passenger Name: ", i);
 		fflush(stdin);
-		gets(val);
+		scanf("%s", &val);
 		printf("Enter The %dnd Passenger Gender: ", i);
 		fflush(stdin);
-		gets(gender);
+		scanf("%s", &gender);
 		printf("Enter The %dnd Passenger Nationality: ", i);
 		fflush(stdin);
-		gets(nat);
+		scanf("%s", &nat);
 		printf("Enter The %dnd Passenger Berth Preference: ", i);
 		fflush(stdin);
-		gets(BP);
+		scanf("%s", &BP);
 		printf("Enter The %dnd Passenger Age: ", i);
 		fflush(stdin);
 		scanf("%d", &a);
@@ -232,16 +232,16 @@ void pass_info(int k)
 		else if(i==3){
 		printf("Enter The %drd Passenger Name: ", i);
 		fflush(stdin);
-		gets(val);
+		scanf("%s", &val);
 		printf("Enter The %drd Passenger Gender: ", i);
 		fflush(stdin);
-		gets(gender);
+		scanf("%s", &gender);
 		printf("Enter The %drd Passenger Nationality: ", i);
 		fflush(stdin);
-		gets(nat);
+		scanf("%s", &nat);
 		printf("Enter The %drd Passenger Berth Preference: ", i);
 		fflush(stdin);
-		gets(BP);
+		scanf("%s", &BP);
 		printf("Enter The %drd Passenger Age: ", i);
 		fflush(stdin);
 		scanf("%d", &a);
@@ -250,16 +250,16 @@ void pass_info(int k)
 		{
 		printf("Enter The %dth Passenger Name: ", i);
 		fflush(stdin);
-		gets(val);
+		scanf("%s", &val);
 		printf("Enter The %dth Passenger Gender: ", i);
 		fflush(stdin);
-		gets(gender);
+		scanf("%s", &gender);
 		printf("Enter The %dth Passenger Nationality: ", i);
 		fflush(stdin);
-		gets(nat);
+		scanf("%s", &nat);
 		printf("Enter The %dth Passenger Berth Preference: ", i);
 		fflush(stdin);
-		gets(BP);
+		scanf("%s", &BP);
 		printf("Enter The %dth Passenger Age: ", i);
 		fflush(stdin);
 		scanf("%d", &a);
